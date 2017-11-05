@@ -1,3 +1,9 @@
 <resources>
     <string name="app_name">AndroidIntroCourse01</string>
+
+    <string-array name="quiz_questions">
+        <item>Koja je poslednja verzija Android-a??;;7.0;;8.0;;9.0;;1</item>
+        <item>Ko je napravio Android??;;Google;;Apple;;Android Inc;;2</item>
+        <item>Kako se zove zvanicno razvojno okruzenje za Android??;;Eclipse;;Android Studio;;Android Creator;;1</item>
+    </string-array>
 </resources>

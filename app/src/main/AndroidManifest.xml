@@ -16,6 +16,12 @@
                 <category android:name="android.intent.category.LAUNCHER"/>
             </intent-filter>
         </activity>
+        <activity android:name=".quiz.QuizActivity">
+            <!--Kada navedemo 'parent' Activity za 'QuizActivity', Android ce dodati navigacionu strelicu za nazad-->
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity"/>
+        </activity>
     </application>
 
 </manifest>
